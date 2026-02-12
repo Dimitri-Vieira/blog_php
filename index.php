@@ -12,7 +12,7 @@
                 <div class="post-box">
                     <img src="<?php echo $BASE_URL ?>img/<?php echo $post['img'] ?>" alt="<?php echo $post['title'] ?>">
                     <h2 class="post-title">
-                        <a href="<?php echo $BASE_URL ?>/post.php?id=<?php echo $post['id'] ?>"><?php echo $post['title'] ?></a>
+                        <a href="<?php echo $BASE_URL ?>post.php?id=<?php echo $post['id'] ?>"><?php echo $post['title'] ?></a>
                     </h2>
                     <p class="post-description"><?php echo $post['description'] ?></p>
                     <div class="tag-container">
